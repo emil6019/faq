@@ -1,0 +1,160 @@
+body {
+    background: linear-gradient(purple, rgb(38, 0, 128));
+    font-family: 'Kumbh Sans', sans-serif;;
+    width: 100vw;
+    height: 100vh;
+    font-weight: 20px;
+    letter-spacing: 0.2px;
+}
+.container {
+    width: 820px;
+    height: 520px;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10%;
+    overflow: hidden;
+    border-radius: 30PX;
+  
+}
+.woman {
+  position: relative;
+    left: -100px;
+    top: 50px;
+    z-index: 2;
+
+  
+}
+
+.arxa {
+   width: 75%;
+   height: 90%;
+   z-index: 1;
+    position: relative;
+    bottom: 350px;
+    left: -150px;
+}
+
+.zer {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    z-index: 3;
+    position: absolute;
+    left: 24%;
+    top: 42%;
+    
+}
+
+
+.duyme1, .duyme2, .duyme3, .duyme4 {
+ background-image: url('fag/icon-arrow-down.svg');
+ padding: 10px;
+ background-size: 20px;
+ background-repeat: no-repeat;
+ border: transparent 0px;
+ background-color: transparent;
+ margin-left: 10px;
+ cursor: pointer;
+}
+
+.melumat {
+    float: right;
+    margin-right: 50px;
+   
+    
+}
+li {
+    padding: 10px;
+    list-style-type: none; 
+    
+    
+}
+
+.melumat1, .melumat2, .melumat3, .melumat4 {
+   display: none;
+}
+
+.dum .melumat1  {
+    display: block;
+    color: rgb(70, 70, 70);
+}
+
+
+ 
+ .dum .melumat2 {
+     display: block;
+     color: rgb(70, 70, 70);
+ }
+
+ .dum .melumat3 {
+    display: block;
+    color: rgb(70, 70, 70);
+}
+
+.dum .melumat4 {
+    display: block;
+    color: rgb(70, 70, 70);
+}
+
+.dum .sual1a {
+    font-weight: bold;
+}
+.dum .sual2a {
+    font-weight: bold;
+}
+.dum .sual3a {
+    font-weight: bold;
+}
+.dum .sual4a {
+    font-weight: bold;
+}
+.sual1a:hover, .sual2a:hover, .sual3a:hover, .sual4a:hover {
+    color: rgb(255, 136, 0);
+    cursor: pointer;
+}
+
+.dum .duyme1 {
+    transform: rotate(180deg);
+}
+.dum .duyme2 {
+    transform: rotate(180deg);
+}
+.dum .duyme3 {
+    transform: rotate(180deg);
+}
+.dum .duyme4 {
+    transform: rotate(180deg);
+}
+@media only screen and (max-width: 900px) {
+
+    
+    .zer {
+        width: 20%;
+        height: 19%;
+        position: absolute;
+        left: -5%;
+        top: 35%;
+    }
+    
+    }
+
+@media only screen and (max-width: 600px) {
+
+.container {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+}
+.woman {
+    top:0mm;
+}
+.zer {
+    width: 40%;
+    height: 19%;
+    position: absolute;
+    left: -15%;
+    top: 75%;
+}
+
+}
